@@ -1,0 +1,12 @@
+
+    <h1>Welcome to <%= name %>'s page</h1>
+    <p>More stuff </p>
+    <h2>Best fruits:</h2>
+    <ul>
+    <% fruits.forEach((fruit)=>{ %>
+        <li><%= fruit %> </li>
+        <% })  %>
+    </ul>    
+   <script>
+       document.title = 'Home'
+   </script>
